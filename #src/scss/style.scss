@@ -1,0 +1,10 @@
+@import "nulling-styles";
+@import "fonts";
+@import "_header";
+@import "_footer";
+
+._container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
