@@ -9,6 +9,7 @@ function headerMenuMobile() {
         
         burger.classList.toggle('burger-active');
         headerMobile.classList.toggle('isActiveMenu');
+        document.querySelector('body').classList.toggle('bodyEditScroll');
     });
 }
 

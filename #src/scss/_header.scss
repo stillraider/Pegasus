@@ -33,7 +33,7 @@
         }
     
         &_phone, &_text {
-            font-family: "Montserrat-Bold";
+            font-family: "Montserrat-SemiBold";
         }
     
         &_phone {
@@ -97,7 +97,7 @@
             height: 30px;
             
             font-size: 12.5px;
-            font-family: "Montserrat-Bold";
+            font-family: "Montserrat-SemiBold";
             color: rgb(47, 44, 52);
             text-transform: uppercase;  
             user-select: none;
@@ -175,7 +175,7 @@
     }
 
     &_items {
-        font-family: "Montserrat-Bold";
+        font-family: "Montserrat-SemiBold";
         font-size: 10.417px;
         color: rgb(47, 44, 52);
         text-transform: uppercase;
@@ -212,10 +212,11 @@
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 49;
     transform: translate(100vw, 0);
     transition: transform .15s ease-in-out;
 
-    padding: 15px;
+    padding: 30px;
     background: white;
 }
 
@@ -237,6 +238,10 @@
 
 .isActiveMenu {
     transform: translate(0, 0);
+}
+
+.bodyEditScroll {
+    overflow: hidden;
 }
 
 @media (max-width: 1100px) {
