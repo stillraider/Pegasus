@@ -912,6 +912,11 @@ svg {
     margin-top: 30px;
   }
 
+  .footer__copyright {
+    margin-top: 30px;
+    font-size: 11.417px;
+  }
+
   .product__wrapper_img {
     height: 40.171vw;
   }
