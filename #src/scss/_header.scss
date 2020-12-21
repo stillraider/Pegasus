@@ -147,42 +147,6 @@
     }
 }
 
-.header-navigation__list {
-    display: flex;
-    justify-content: center;
-
-    padding: 10px 0 12px 0;
-    border-bottom: 1px solid #E8E8E9;
-
-    & li {
-        padding-left: 8px;
-        margin-right: 8px;
-
-        border-left: 2px solid #98969A;
-    }
-
-    & li:first-child {
-        padding-left: 0;
-        border: 0;
-    }
-    
-    & li:last-child {
-        border-left: 1px solid #D0AA8C;
-    }
-
-    & li:last-child   &_items {
-        color: #D0AA8C;
-    }
-
-    &_items {
-        font-family: "Montserrat-SemiBold";
-        font-size: 10.417px;
-        color: rgb(47, 44, 52);
-        text-transform: uppercase;
-        line-height: 1.2;     
-    }
-}
-
 .burger {
     display: none;
 
